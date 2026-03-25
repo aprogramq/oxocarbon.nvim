@@ -566,7 +566,7 @@
 
 (custom-set-face! :NvimInternalError [] {:fg oxocarbon.base00 :bg oxocarbon.base08})
 (custom-set-face! :NormalFloat [] {:fg oxocarbon.base05 :bg oxocarbon.blend})
-(custom-set-face! :FloatBorder [] {:fg oxocarbon.blend :bg oxocarbon.blend})
+(custom-set-face! :FloatBorder [] {:fg oxocarbon.base03 :bg oxocarbon.blend})
 (custom-set-face! :NormalNC [] {:fg oxocarbon.base04 :bg oxocarbon.base00})
 (custom-set-face! :TermCursor [] {:fg oxocarbon.base00 :bg oxocarbon.base04})
 (custom-set-face! :TermCursorNC [] {:fg oxocarbon.base00 :bg oxocarbon.base04})
@@ -588,10 +588,10 @@
 
 ;; telescope
 
-(custom-set-face! :TelescopeBorder [] {:fg oxocarbon.blend :bg oxocarbon.blend})
-(custom-set-face! :TelescopePromptBorder [] {:fg oxocarbon.base02 :bg oxocarbon.base02})
-(custom-set-face! :TelescopePromptNormal [] {:fg oxocarbon.base05 :bg oxocarbon.base02})
-(custom-set-face! :TelescopePromptPrefix [] {:fg oxocarbon.base08 :bg oxocarbon.base02})
+(custom-set-face! :TelescopeBorder [] {:fg oxocarbon.base03 :bg oxocarbon.blend})
+(custom-set-face! :TelescopePromptBorder [] {:fg oxocarbon.base03 :bg oxocarbon.blend})
+(custom-set-face! :TelescopePromptNormal [] {:fg oxocarbon.base05 :bg oxocarbon.blend})
+(custom-set-face! :TelescopePromptPrefix [] {:fg oxocarbon.base08 :bg oxocarbon.blend})
 (custom-set-face! :TelescopeNormal [] {:fg oxocarbon.none :bg oxocarbon.blend})
 (custom-set-face! :TelescopePreviewTitle [] {:fg oxocarbon.base02 :bg oxocarbon.base12})
 (custom-set-face! :TelescopePromptTitle [] {:fg oxocarbon.base02 :bg oxocarbon.base11})
